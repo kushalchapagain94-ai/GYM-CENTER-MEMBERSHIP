@@ -1,0 +1,15 @@
+SDLC TO USE :-   "WATERFALL MODEL"
+→ Requirements 
+→ Design 
+→ Implementation
+→ Testing
+→ Deployment 
+→ Maintenance
+COMPLETED
+→
+→ 
+→ 
+→ 
+→ 
+→ 
+→ 
