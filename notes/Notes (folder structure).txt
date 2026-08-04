@@ -1,0 +1,118 @@
+GYM-CENTER-MEMBERSHIP/
+│
+├── README.md
+├── .gitignore
+│
+├── documentation/
+│   ├── Project Proposal.docx
+│   ├── Project Report.docx
+│   ├── Requirement Specification.docx
+│   ├── ER Diagram.png
+│   ├── Database Schema.pdf
+│   ├── Use Case Diagram.drawio
+│   ├── Activity Diagram.drawio
+│   ├── Sequence Diagram.drawio
+│   ├── Class Diagram.drawio
+│   ├── UI Wireframes/
+│   └── Meeting Notes/
+│
+├── database/
+│   ├── gym_center.sql
+│   ├── sample_data.sql
+│   ├── database_design.md
+│   └── backups/
+│
+├── frontend/
+│   ├── index.html
+│   ├── about.html
+│   ├── contact.html
+│   ├── packages.html
+│   ├── login.html
+│   ├── register.html
+│   │
+│   ├── css/
+│   │     style.css
+│   │     navbar.css
+│   │     footer.css
+│   │     dashboard.css
+│   │     forms.css
+│   │     responsive.css
+│   │
+│   ├── js/
+│   │     main.js
+│   │     login.js
+│   │     register.js
+│   │     contact.js
+│   │     validation.js
+│   │     notifications.js
+│   │
+│   ├── images/
+│   │
+│   ├── icons/
+│   │
+│   └── fonts/
+│
+├── backend/
+│   ├── config/
+│   │     database.php
+│   │     config.php
+│   │
+│   ├── authentication/
+│   │     login.php
+│   │     register.php
+│   │     logout.php
+│   │
+│   ├── admin/
+│   │     dashboard.php
+│   │     users.php
+│   │     memberships.php
+│   │     notifications.php
+│   │     revenue.php
+│   │     analytics.php
+│   │
+│   ├── user/
+│   │     dashboard.php
+│   │     profile.php
+│   │     memberships.php
+│   │     renew.php
+│   │     notifications.php
+│   │
+│   ├── api/
+│   │     login.php
+│   │     register.php
+│   │     payment.php
+│   │     membership.php
+│   │
+│   ├── helpers/
+│   │     functions.php
+│   │     validation.php
+│   │     session.php
+│   │
+│   └── uploads/
+│         profile_pictures/
+│
+├── assets/
+│   ├── logos/
+│   ├── gym_images/
+│   ├── trainer_images/
+│   ├── package_images/
+│   ├── backgrounds/
+│   └── screenshots/
+│
+├── test/
+│   ├── test_login.php
+│   ├── test_database.php
+│   ├── test_api.php
+│   └── sample_requests.txt
+│
+├── backups/
+│   ├── source_backup_v1.zip
+│   ├── source_backup_v2.zip
+│   └── database_backup.sql
+│
+└── notes/
+    ├── TODO.md
+    ├── Bugs.md
+    ├── Ideas.md
+    ├── Progress.md
+    └── Daily Log.md
