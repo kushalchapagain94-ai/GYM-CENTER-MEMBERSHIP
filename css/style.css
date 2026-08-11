@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    background: #222;
+    background: #716868;
     padding: 15px 7%;
     display: flex;
     justify-content: space-between;
@@ -70,3 +70,15 @@ footer {
 }
 
 .small { color: #666; }
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
