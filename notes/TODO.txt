@@ -1,0 +1,6 @@
+TODO
+- Add admin trainer management.
+- Add payment history page.
+- Add membership renewal action.
+- Add search/filter to admin tables.
+- Improve UI only if time remains.

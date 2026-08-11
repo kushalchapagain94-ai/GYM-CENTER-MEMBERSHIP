@@ -1,0 +1,28 @@
+Useful SQL practice queries
+
+-- Count users
+SELECT COUNT(*) FROM gym_user;
+
+-- Total revenue
+SELECT SUM(amount) FROM payment;
+
+-- Active memberships
+SELECT * FROM user_membership WHERE status='Active';
+
+-- Users by trainer
+SELECT t.t_name, COUNT(um.membership_id)
+FROM trainer t
+LEFT JOIN user_membership um ON t.t_id=um.t_id
+GROUP BY t.t_id, t.t_name;
+
+-- Revenue by payment method
+SELECT payment_via, SUM(amount)
+FROM payment
+GROUP BY payment_via;
+
+-- Membership details
+SELECT u.u_name, mp.plan_name, mp.duration, t.t_name
+FROM gym_user u
+JOIN user_membership um ON u.u_id=um.u_id
+JOIN membership_plan mp ON um.plan_id=mp.plan_id
+LEFT JOIN trainer t ON um.t_id=t.t_id;

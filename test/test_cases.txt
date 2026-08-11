@@ -1,0 +1,14 @@
+GYM-CENTER-MEMBERSHIP TEST CASES
+
+1. Register user with valid data -> user and login rows created.
+2. Register duplicate username -> registration rejected.
+3. Login with correct password -> correct dashboard opens.
+4. Login with wrong password -> rejected.
+5. Admin adds membership plan -> plan appears on packages page.
+6. User purchases plan -> user_membership and payment rows created.
+7. User purchases with trainer -> t_id is stored in user_membership.
+8. User updates profile -> user record changes.
+9. Admin deactivates plan -> plan becomes inactive.
+10. Admin sends notification -> notification appears on user dashboard.
+11. Trainer logs in -> assigned active members are displayed.
+12. Contact form -> message is stored in contact_message.
